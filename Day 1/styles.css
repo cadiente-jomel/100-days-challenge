@@ -1,0 +1,139 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 62.5%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+    
+}
+
+.logo-container {
+    padding-top: 12rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bg {
+    border-radius: 15px;
+    height: 667px;
+    width: 375px;
+    background: url('img/background-1.jpg');
+}
+
+.app-info-container {
+
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5rem;
+}
+
+.sub-heading {
+    letter-spacing: .3rem;
+    margin-top: .7rem;
+}
+
+.app-info {
+    width: 70%;
+}
+
+.heading {
+    font-size: 3.6rem;
+}
+
+.form-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+::placeholder {
+    color: #533EDE;
+    letter-spacing: .2rem;
+}
+
+.sign-up-container {
+    letter-spacing: .2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-container span {
+    color: #3D28CF;
+}
+
+.sign-up {
+    color: black;
+    width: 70%;
+}
+
+.input {
+    color: #533EDE;
+    letter-spacing: .2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1rem 1.6rem;
+    font-size: 1.6rem;
+    border: none;
+    outline: none;
+}
+
+.input-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.input-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 1.4rem;
+    background-color: #533EDE;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .2rem;
+    outline: none;
+}
+
+.btn:hover {
+    transform: translateY(-.5rem);
+    background-color: rgb(93, 69, 247);
+    transition: all .2s ease-in-out;
+}
+
+.btn:active {
+    transform: translateY(0)
+}
+
+.sign-up-container span:hover {
+    color: rgb(35, 27, 88)
+}
