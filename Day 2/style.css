@@ -1,0 +1,128 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(236, 236, 236);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    overflow: hidden;
+    width: 375px;
+    height: 812px;
+    background-color: #101112;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    margin-top: 3rem;
+    justify-content: space-around;
+    display: flex;
+    color: #fff
+}
+
+.header a {
+    color: #A0A7BA;
+}
+.more-container {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    position: relative;
+}
+.more-options {
+    margin: 0 auto;
+    width: 5px;
+    height: 5px;
+    background: #A0A7BA;
+    border-radius: 5px;
+}
+
+.more-options::before, .more-options::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #A0A7BA;
+    border-radius: 5px;
+}
+
+.more-options::before {
+    content: '';
+    left: 0;
+}
+
+.more-options::after {
+    content: '';
+    right: 0;
+}
+
+
+.activity {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 70%;
+}
+
+.details {
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+}
+
+.bg {
+
+    position: absolute;
+    top: 30%;
+    background-color: #fff;
+    width: 375px;
+    height: 439px;
+    border-radius: 50px;
+}
+
+.purchase {
+    display: flex;
+    justify-content: space-between;
+}
+
+.purchase-text {
+    color: #fff;
+    letter-spacing: .3rem;
+}
+
+.cards {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.shoes {
+    width: 20rem;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.next img{
+    width: 7rem;
+}
