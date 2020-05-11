@@ -1,0 +1,129 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ellipse {
+    z-index: 2;
+    position: absolute;
+    width: 841.5px;
+    height: 885px;
+    top: 7%;
+    left: 0;
+    transform: translate(-24%,-80%);
+    border-radius: 100%;
+    background: #1061FF;
+
+}
+
+
+
+.container {
+    overflow: hidden;
+    background:linear-gradient(#23A9FF, #014DFF);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 812px;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15rem
+}
+
+.btn, .backspace-btn,
+.clear-btn, .equals {
+    padding: 30px;
+    flex: 1 0 21%;
+    outline: none;
+    font-size: 1.6rem;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, .2);
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+
+.btn:hover, .backspace-btn:hover {
+    color: rgb(127, 163, 206);
+    background: linear-gradient(#fff, rgb(134, 168, 209));
+}
+
+.btn {
+    color: rgb(104, 133, 168);
+    background: linear-gradient(#fff, #A0C9FA);
+}
+
+.input-text {
+    width: 88%;
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 5rem;
+    padding: 30px 0 30px 40px;
+    
+}
+
+.input {
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.operators {
+    color: rgb(184, 154, 5);
+    background: linear-gradient(#fff, #F9D423);
+}
+
+.operators:hover {
+    color: rgb(153, 128, 4);
+    background: linear-gradient(#fff, rgb(201, 172, 27));
+}
+
+.equals {
+    color: rgb(0, 211, 207);
+    background: linear-gradient(#fff, #2CD8D5);
+}
+
+.equals:hover {
+    color: rgb(1, 182, 179);
+    background: linear-gradient(#fff, rgb(40, 194, 191));
+}
+
+.clear-btn {
+    background: linear-gradient(#fff, #EE609C);
+    color: rgb(199, 109, 147);
+}
+
+.clear-btn:hover {
+    background: linear-gradient(#fff, rgb(179, 73, 117));
+    color: rgb(151, 82, 111);
+}
+
+.backspace-btn {
+    color: rgb(104, 133, 168);
+    background: linear-gradient(#fff, #A0C9FA);
+}
+
+
+
+.equation {
+    text-align: right;
+    font-size: 2rem;
+    margin: 0;
+    color: #A3BEFF;
+}
