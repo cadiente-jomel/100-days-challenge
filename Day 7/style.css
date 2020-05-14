@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url("img/ocean.jpg");
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.warning {
+    margin-left: 10rem;
+    width: 50%;
+}
+
+.error-code {
+    margin-bottom: 1.5rem;
+    font-size: 15rem;
+    background: linear-gradient(#FFEFBA, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.error-text {
+    width: 55%;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+}
+
+.error-description {
+    letter-spacing: 2px;
+    width: 55%;
+    font-weight: 500;
+}
+
+.btn-container {
+    align-items: center;
+    margin-top: 2rem;
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1rem;
+}
+
+.btn {
+    
+    font-size: 2.2rem;
+    color: rgb(0, 0, 0, .8);
+    text-decoration: none;
+    padding: .5rem 1.5rem;
+    background: linear-gradient(#FFEFBA, #FFFFFF);
+}
+
+
+.btn:hover {
+    transform: rotate(360deg);
+    transition: all .5s ease;
+}
+
+.btn:hover + .back {
+    transform: translateX(5px) scale(1.2);
+    transition: all .2s ease;
+}
+
